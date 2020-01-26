@@ -1,0 +1,10 @@
+APPLICATIONS OF STACK:
+1)Used to evaluate infix, prefix, and postfix expressions and convert one form to the other.
+2)It is used for parenthesis checking.
+3) Backtracking of processes is possible by using stack.
+4)The concept of stack is used in recursion.
+
+APPLICATIONS OF QUEUE:
+1)Handling of errors in a real-time scenario: The errors encountered first are resolved first (first come,first serve basis).
+2)CPU task scheduling.
+3)When data is transfered between two processes at two different speeds, queue is used to implement the faster one first. Ex: IO Buffers

@@ -1,0 +1,14 @@
+TO IMPLEMENT A QUEUE USING 2 STACKS
+
+-Let the queue to be implemented be q. The stacks used to implement this are stackA and stackB
+-Suppose a new element is to be added to q. The new element is entered at the top of stackA. 
+-To remove an element from the front, if stackb is empty, then all the elements are moved to stackB and finally top of stackB is returned.
+
+enqueue(q,  val)
+   -Pushes val to stackA
+
+dequeue(q)
+  -If both stacks are empty then, then there is an underflow.
+  -If stackB is empty:
+       While stackA is not empty, push everything from stackA to stackB.
+  -Pop the element from stackB and return it.
